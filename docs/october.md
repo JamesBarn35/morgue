@@ -44,6 +44,8 @@ Consequat interdum varius sit amet mattis vulputate. Blandit turpis cursus in ha
 - [Incident Discussion Thread]()
 - [Alert Resolving Notification]()
 
+<br/>
+
 ## Example Incident Name 2
 - Date: 2021-10-20
 - Time to Resolve: 2 hours
