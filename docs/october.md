@@ -1,10 +1,9 @@
 # October
 
 ## Example Incident Name
-- Date: 2021-10-25
-- Time to Resolve: 1 hour
-- Page Incident: 123456789
-- Current Status: Resolved
+| Date | Time to Detect | Time to Resolved | Incident Number | Status |
+| ____ | ____ | ____ | ____ | ____ |
+| 2021-10-25 | 1 hour | 2 hours | 123456789 | Resolved |
 
 ### Overview
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus molestie. Blandit cursus risus at ultrices mi tempus. Varius sit amet mattis vulputate enim nulla aliquet. Vel eros donec ac odio. Ac odio tempor orci dapibus ultrices in iaculis nunc sed. Viverra vitae congue eu consequat ac felis. Duis ut diam quam nulla porttitor massa id. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Elit ullamcorper dignissim cras tincidunt lobortis feugiat.
@@ -47,10 +46,9 @@ Consequat interdum varius sit amet mattis vulputate. Blandit turpis cursus in ha
 <br/>
 
 ## Example Incident Name 2
-- Date: 2021-10-20
-- Time to Resolve: 2 hours
-- Page Incident: 1234567890
-- Current Status: On-going Investigation
+| Date | Time to Detect | Time to Resolved | Incident Number | Status |
+| ____ | ____ | ____ | ____ | ____ |
+| 2021-10-20 | 2 hour | 2.5 hours | 1234567890 | On-Going |
 
 ### Overview
 Cras semper auctor neque vitae tempus quam pellentesque. Interdum velit laoreet id donec ultrices tincidunt arcu non. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Tortor condimentum lacinia quis vel. Cursus in hac habitasse platea dictumst quisque sagittis purus. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna. Maecenas sed enim ut sem viverra aliquet eget sit amet. Velit laoreet id donec ultrices. Pellentesque sit amet porttitor eget.

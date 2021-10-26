@@ -1,10 +1,9 @@
 # September
 
 ## Example Incident Name
-- Date: 2021-09-15
-- Time to Resolve: 1.5 hour
-- Page Incident: 0123456789
-- Current Status: Resolved
+| Date | Time to Detect | Time to Resolved | Incident Number | Status |
+| ____ | ____ | ____ | ____ | ____ |
+| 2021-09-15 | 1.5 hour | 2 hours | 0123456789 | Resolved |
 
 ### Overview
 Blandit cursus risus at ultrices mi tempus. Varius sit amet mattis vulputate enim nulla aliquet. Vel eros donec ac odio. Ac odio tempor orci dapibus ultrices in iaculis nunc sed. Viverra vitae congue eu consequat ac felis. Duis ut diam quam nulla porttitor massa id. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Elit ullamcorper dignissim cras tincidunt lobortis feugiat.
@@ -38,10 +37,10 @@ int aeCreateFileEvent(aeEventLoop *eventLoop, int fd, int mask,
 
 Consequat interdum varius sit amet mattis vulputate. Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Lacus sed viverra tellus in hac habitasse platea dictumst. Tellus pellentesque eu tincidunt tortor. Ridiculus mus mauris vitae ultricies leo integer. Varius sit amet mattis vulputate enim nulla. In egestas erat imperdiet sed euismod nisi.
 
-### Actions Taken 
-- Consequat interdum varius sit amet mattis vulputate. 
+### Actions Taken
+- Consequat interdum varius sit amet mattis vulputate.
 - Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis.
--  Dictum at tempor commodo ullamcorper a lacus vestibulum sed. 
+-  Dictum at tempor commodo ullamcorper a lacus vestibulum sed.
 
 ### Related Links
 - [Alert Slack Thread]()
