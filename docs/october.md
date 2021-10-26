@@ -12,9 +12,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 > ERROR: Enim praesent elementum facilisis leo. Elementum facilisis leo vel fringilla. Morbi tincidunt augue interdum velit euismod in pellentesque. Et tortor consequat id porta nibh venenatis. Quam pellentesque nec nam aliquam sem et tortor consequat. Turpis egestas integer eget aliquet nibh praesent. Enim praesent elementum facilisis leo.
 
-Quis enim lobortis scelerisque fermentum dui. Viverra justo nec ultrices dui sapien eget. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Sagittis id consectetur purus ut. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pellentesque pulvinar pellentesque habitant morbi tristique senectus. In massa tempor nec feugiat. Faucibus interdum posuere lorem ipsum. Scelerisque viverra mauris in aliquam. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Consequat interdum varius sit amet mattis vulputate. Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Lacus sed viverra tellus in hac habitasse platea dictumst. Tellus pellentesque eu tincidunt tortor. Ridiculus mus mauris vitae ultricies leo integer. Varius sit amet mattis vulputate enim nulla. In egestas erat imperdiet sed euismod nisi.
+Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Consequat interdum varius sit amet mattis vulputate. Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Lacus sed viverra tellus in hac habitasse platea dictumst. Tellus pellentesque eu tincidunt tortor. Ridiculus mus mauris vitae ultricies leo integer. Varius sit amet mattis vulputate enim nulla. In egestas erat imperdiet sed euismod nisi.
 
-```C
+```c
 void aeDeleteEventLoop(aeEventLoop *eventLoop) {
     aeApiFree(eventLoop);
     zfree(eventLoop->events);
