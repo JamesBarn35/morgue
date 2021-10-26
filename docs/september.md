@@ -2,7 +2,7 @@
 
 ## Example Incident Name
 | Date | Time to Detect | Time to Resolved | Incident Number | Status |
-| ____ | ____ | ____ | ____ | ____ |
+| ----------- | ---------- | ---------- | ---------- | ---------- | 
 | 2021-09-15 | 1.5 hour | 2 hours | 0123456789 | Resolved |
 
 ### Overview
@@ -12,26 +12,27 @@ Blandit cursus risus at ultrices mi tempus. Varius sit amet mattis vulputate eni
 
 Quis enim lobortis scelerisque fermentum dui. Viverra justo nec ultrices dui sapien eget. Faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Sagittis id consectetur purus ut. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Pellentesque pulvinar pellentesque habitant morbi tristique senectus. In massa tempor nec feugiat. Faucibus interdum posuere lorem ipsum. Scelerisque viverra mauris in aliquam. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Consequat interdum varius sit amet mattis vulputate. Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Lacus sed viverra tellus in hac habitasse platea dictumst. Tellus pellentesque eu tincidunt tortor. Ridiculus mus mauris vitae ultricies leo integer. Varius sit amet mattis vulputate enim nulla. In egestas erat imperdiet sed euismod nisi.
 
-```c
-int aeCreateFileEvent(aeEventLoop *eventLoop, int fd, int mask,
-        aeFileProc *proc, void *clientData)
-{
-    if (fd >= eventLoop->setsize) {
-        errno = ERANGE;
-        return AE_ERR;
-    }
-    aeFileEvent *fe = &eventLoop->events[fd];
+```scala
+ lazy val commonJavaSettings = commonSettings ++ Seq(
+   version := dottyVersion,
+   scalaVersion := referenceVersion,
+   // Do not append Scala versions to the generated artifacts
+   crossPaths := false,
+   // Do not depend on the Scala library
+   autoScalaLibrary := false,
+   excludeFromIDE := true,
+   disableDocSetting
+ )
 
-    if (aeApiAddEvent(eventLoop, fd, mask) == -1)
-        return AE_ERR;
-    fe->mask |= mask;
-    if (mask & AE_READABLE) fe->rfileProc = proc;
-    if (mask & AE_WRITABLE) fe->wfileProc = proc;
-    fe->clientData = clientData;
-    if (fd > eventLoop->maxfd)
-        eventLoop->maxfd = fd;
-    return AE_OK;
-}
+ lazy val commonDottySettings = commonSettings ++ Seq(
+   // Manually set the standard library to use
+   autoScalaLibrary := false,
+   classpathOptions ~= (old =>
+     old
+       .withAutoBoot(false)      // no library on the compiler bootclasspath - we may need a more recent version
+       .withFilterLibrary(false) // ...instead, we put it on the compiler classpath
+   ),
+ )
 
 ```
 

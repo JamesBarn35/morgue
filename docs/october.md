@@ -2,7 +2,7 @@
 
 ## Example Incident Name
 | Date | Time to Detect | Time to Resolved | Incident Number | Status |
-| ____ | ____ | ____ | ____ | ____ |
+| ---------- | ---------- | ---------- | ---------- | ---------- |
 | 2021-10-25 | 1 hour | 2 hours | 123456789 | Resolved |
 
 ### Overview
@@ -14,21 +14,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Consequat interdum varius sit amet mattis vulputate. Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Lacus sed viverra tellus in hac habitasse platea dictumst. Tellus pellentesque eu tincidunt tortor. Ridiculus mus mauris vitae ultricies leo integer. Varius sit amet mattis vulputate enim nulla. In egestas erat imperdiet sed euismod nisi.
 
-```c
-void aeDeleteEventLoop(aeEventLoop *eventLoop) {
-    aeApiFree(eventLoop);
-    zfree(eventLoop->events);
-    zfree(eventLoop->fired);
-
-    /* Free the time events list. */
-    aeTimeEvent *next_te, *te = eventLoop->timeEventHead;
-    while (te) {
-        next_te = te->next;
-        zfree(te);
-        te = next_te;
-    }
-    zfree(eventLoop);
-}
+```scala
+val dottyVersion = {
+    def isNightly = sys.env.get("NIGHTLYBUILD") == Some("yes")
+    if (isRelease)
+      baseVersion
+    else if (isNightly)
+      baseVersion + "-bin-" + VersionUtil.commitDate + "-" + VersionUtil.gitHash + "-NIGHTLY"
+    else
+      baseVersion + "-bin-SNAPSHOT"
+  }
+  val dottyNonBootstrappedVersion = {
+    // Make sure sbt always computes the scalaBinaryVersion correctly
+    val bin = if (!dottyVersion.contains("-bin")) "-bin" else ""
+    dottyVersion + bin + "-nonbootstrapped"
+  }
 ```
 
 Consequat interdum varius sit amet mattis vulputate. Blandit turpis cursus in hac habitasse platea dictumst quisque sagittis. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Lacus sed viverra tellus in hac habitasse platea dictumst. Tellus pellentesque eu tincidunt tortor. Ridiculus mus mauris vitae ultricies leo integer. Varius sit amet mattis vulputate enim nulla. In egestas erat imperdiet sed euismod nisi.
@@ -47,7 +47,7 @@ Consequat interdum varius sit amet mattis vulputate. Blandit turpis cursus in ha
 
 ## Example Incident Name 2
 | Date | Time to Detect | Time to Resolved | Incident Number | Status |
-| ____ | ____ | ____ | ____ | ____ |
+|---------- | ---------- | ---------- | ---------- | ---------- | 
 | 2021-10-20 | 2 hour | 2.5 hours | 1234567890 | On-Going |
 
 ### Overview
