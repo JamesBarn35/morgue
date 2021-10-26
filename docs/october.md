@@ -7,6 +7,7 @@
 
 ### Overview
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis elementum nibh tellus molestie. Blandit cursus risus at ultrices mi tempus. Varius sit amet mattis vulputate enim nulla aliquet. Vel eros donec ac odio. Ac odio tempor orci dapibus ultrices in iaculis nunc sed. Viverra vitae congue eu consequat ac felis. Duis ut diam quam nulla porttitor massa id. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Elit ullamcorper dignissim cras tincidunt lobortis feugiat.
+
 <img src="static/img/october/25/example/grafana.gif" style="max-width: 100%" />
 
 
@@ -47,7 +48,7 @@ Consequat interdum varius sit amet mattis vulputate. Blandit turpis cursus in ha
 
 ## Example Incident Name 2
 | Date | Time to Detect | Time to Resolved | Incident Number | Status |
-|---------- | ---------- | ---------- | ---------- | ---------- | 
+|---------- | ---------- | ---------- | ---------- | ---------- |
 | 2021-10-20 | 2 hour | 2.5 hours | 1234567890 | On-Going |
 
 ### Overview
