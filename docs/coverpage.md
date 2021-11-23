@@ -45,8 +45,7 @@
 
 > A searchable repository for postmortems 
 
-[GitHub](https://github.com/JamesBarn35/theMorgue)
-[Get Started](#get-started)
+[Start Searching](#get-started)
 
 <style>
     
